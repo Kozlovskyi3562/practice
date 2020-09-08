@@ -12,7 +12,9 @@ body {
 
   margin-top: 10px ;
   display: flex;
-
+  background: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(63, 36, 5, 0.671) 10.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .parent2 {
   margin-top: 10px ;
@@ -21,7 +23,27 @@ body {
   justify-content: center;
   background-image: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(173, 141, 92, 0.47) 67.34%), url(assets/book2.jpg);
   height:400px;
+  
 }
+.parent-title {
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  background: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(64, 37, 6, 0.47) 10.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  text-align: center;
+  margin: 200px 0 200px 0;
+}
+hr {
+  margin: 0;
+  border: 1px solid;
+  border-image: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(101, 71, 36, 0.47) 10.34%);
+  border-image-slice: 1;
+
+}
+
 .child {
 
   margin: 0;
@@ -39,19 +61,34 @@ body {
 .child4 + .child4 {
   margin-left: 250px;
 }
+.child2 {
+  font-size: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.child2small {
+  font-size: 60px;
+}
 .p1 {
   padding: 10px 10px 0 10px;
   font-size: 21px;
   margin: 10px 10px 0 10px;
+
 }
 .p2{
   font-size: 22px;
   text-align: right;
   padding-right: 10px;
+  background: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(54, 30, 2, 0.87) 10.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .p3 {
   font-size: 20px;
   text-align: left;
+  background: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(54, 30, 2, 0.87) 10.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h1 {
   padding-left: 20px;
@@ -62,6 +99,11 @@ h3 {
   padding-left: 20px;
   margin: 0;
   font-size: 28px;
+}
+.title {
+  background: linear-gradient(80.57deg, rgba(96, 74, 20, 0.637) -0.58%, rgba(64, 37, 6, 0.47) 10.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @font-face {
   
