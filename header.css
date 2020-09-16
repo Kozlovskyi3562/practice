@@ -1,0 +1,33 @@
+a, a:visited {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-size: 30px;
+
+}
+
+.nav-list {
+    display: flex;
+
+}
+li {
+    list-style-type: none;
+}
+.nav-list > li + li {
+    margin-left: 20px;
+}
+
+header {
+    border: 1px solid black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgb(223, 192, 156);
+
+}
