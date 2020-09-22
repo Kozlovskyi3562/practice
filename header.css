@@ -14,7 +14,7 @@ nav {
 .nav-list {
     display: flex;
     margin: 20px 0;
-
+    justify-content: center;
 }
 li {
     list-style-type: none;
@@ -31,4 +31,15 @@ header {
     width: 100%;
     background: rgb(223, 192, 156);
 
+}
+
+.grow-on-hover {
+    transition: transform 0.2s ease-in-out 0.1s;
+}
+
+.grow-on-hover:hover {
+    transform: scale(1.2);
+    color: rgb(104, 50, 50);
+    text-shadow: 1px 1px 2px rgb(179, 105, 105), 0 0 1em rgb(255, 255, 255);
+    
 }
