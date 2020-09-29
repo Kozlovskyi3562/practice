@@ -7,14 +7,16 @@ a {
 }
 
 nav {
-    font-size: 30px;
+    font-size: calc(30 / 1440 * 100vw);
 
 }
 
 .nav-list {
     display: flex;
-    margin: 20px 0;
+    margin: calc(25 / 1440 * 100vw) 0;
     justify-content: center;
+    width: 100%;
+
 }
 li {
     list-style-type: none;

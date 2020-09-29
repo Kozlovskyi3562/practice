@@ -7,8 +7,6 @@
 
 body {
   max-width: 1000px;
-  padding-top: 75px;
-  margin-top: 75px;
   height: auto;
   background: linear-gradient(296.87deg, rgba(96, 74, 20, 0) -7.14%, rgba(173, 141, 92, 0.47) 76.73%);
   font-family: 'Forum';
@@ -29,8 +27,9 @@ body {
   padding: 20px;
   justify-content: center;
   background-image: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(173, 141, 92, 0.47) 67.34%), url(assets/book2.jpg);
-  height:400px;
+  height: 400px;
   align-items: center;
+  border: 1px solid black;
   
 }
 .parent-title {
@@ -41,7 +40,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  padding: 200px 0 200px 0;
+  padding: calc(100 / 1440 * 150vw) 0 ;
 }
 hr {
   margin: 0;
@@ -52,13 +51,13 @@ hr {
 }
 
 .child {
-
   margin: 0;
+  
 }
 
 .child3 {
 
-  width: 500px;
+  width: calc(500 / 1440 * 100vw);
   align-self: center;
 }
 
@@ -66,21 +65,24 @@ hr {
   margin-left: 250px;
 }
 .child2 {
-  font-size: 150px;
+  /* font-size: 150px; */
+  font-size: calc(120 / 1440 * 100vw);
   justify-content: center;
   align-items: center;
 }
 .child2small {
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: calc(60 / 1440 * 100vw);
 }
 .p1 {
   padding: 10px 10px 0 10px;
-  font-size: 21px;
+  font-size: calc(23 / 1440 * 100vw);
+  /* font-size: 21px; */
   margin: 10px 10px 0 10px;
 
 }
 .p2{
-  font-size: 22px;
+  font-size: calc(23 / 1440 * 100vw);
   text-align: right;
   padding-right: 10px;
   background: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(54, 30, 2, 0.87) 10.34%);
@@ -88,7 +90,7 @@ hr {
   -webkit-text-fill-color: transparent;
 }
 .p3 {
-  font-size: 20px;
+  font-size: calc(20 / 1440 * 100vw);
   text-align: left;
   background: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(54, 30, 2, 0.87) 10.34%);
   -webkit-background-clip: text;
@@ -97,12 +99,12 @@ hr {
 h1 {
   padding-left: 20px;
   margin: 0px;
-  font-size: 44px;
+  font-size: calc(45 / 1440 * 100vw);
 }
 h3 {
   padding-left: 20px;
   margin: 0;
-  font-size: 28px;
+  font-size: calc(30 / 1440 * 100vw);
 }
 .title {
   background: linear-gradient(80.57deg, rgba(96, 74, 20, 0.637) -0.58%, rgba(64, 37, 6, 0.47) 10.34%);
@@ -120,12 +122,18 @@ h3 {
 }
 
 .img2 {
-  width: 500px;
+  width: calc(500 / 1440 * 100vw);
   height: auto;
   margin: 0;
 }
 a {
   margin: 0;
 }
+
+.img1 {
+  width: calc(500 / 1440 * 100vw);
+}
+
+
   
   
