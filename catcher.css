@@ -29,7 +29,7 @@ body {
   background-image: linear-gradient(80.57deg, rgba(96, 74, 20, 0) -6.58%, rgba(173, 141, 92, 0.47) 67.34%), url(assets/book2.jpg);
   height: 400px;
   align-items: center;
-  border: 1px solid black;
+
   
 }
 .parent-title {
