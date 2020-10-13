@@ -75,7 +75,7 @@ hr {
   font-size: calc(60 / 1440 * 100vw);
 }
 .p1 {
-  padding: 10px 10px 0 10px;
+  padding: 0px 0px 0px 0px;
   font-size: calc(23 / 1440 * 100vw);
   /* font-size: 21px; */
   margin: 10px 10px 0 10px;
@@ -133,7 +133,9 @@ a {
 .img1 {
   width: calc(500 / 1440 * 100vw);
 }
-
+p {
+  padding-bottom: 30px;
+}
 
   
   
